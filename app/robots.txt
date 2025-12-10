@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow backend or private routes (none in your public site)
+Disallow: /api/
+
+# Sitemap reference
+Sitemap: https://phyber.care/sitemap.xml

@@ -1,0 +1,86 @@
+//Key items to ensure//
+✅ SEO-rich hero section
+✅ JSON-LD (WebPage + Service + FAQ)
+✅ Image-rich cards using/> component
+✅ Fully responsive layout
+✅ Six detailed cards with keyword-dense descriptions
+✅ 6-FAQ SEO block
+✅ Clean structure, no errors
+
+****||| IMAGE PLACEMENTS FOLLOW ||*****
+
+//**Body Section**//
+
+public/
+  images/
+    body/
+      body-hero-bg.jpg
+      card-running.jpg
+      card-diagnostics.jpg
+      card-recovery.jpg
+      card-gym.jpg
+      card-events.jpg
+      card-analytics.jpg
+      body-community-fitness.jpg
+
+      //**Mind Section**//
+
+public/images/mind/bg_mental.jpg
+public/images/mind/therapy.jpg
+public/images/mind/support_groups.jpg
+public/images/mind/retreats.jpg
+public/images/mind/cta_member.jpg
+
+//**Consult Sectio**//
+public/images/consult/facility/--- To be changed here as the path does not show images folder.
+  clinic-hero.jpg
+  clinic-1.jpg
+  clinic-2.jpg
+  clinic-3.jpg
+  clinic-4.jpg
+  clinic-5.jpg
+  clinic-6.jpg
+  clinic-cta.jpg
+
+telemedicine-hero.jpg       <-- hero background (large, landscape)
+telemedicine-1.jpg         <-- card 1 image (doctor video)
+telemedicine-2.jpg         <-- card 2 image (therapy session)
+telemedicine-3.jpg         <-- card 3 image (chronic care)
+telemedicine-4.jpg         <-- card 4 image (nutrition)
+telemedicine-5.jpg         <-- card 5 image (reports / second opinion)
+telemedicine-6.jpg         <-- card 6 image (women's health)
+cta-image.jpg              <-- CTA square image
+
+public/images/on-premise/at-home/
+Filenames (must match exactly):
+
+hero-bg.jpg ← hero background (large landscape)
+
+elder-care.jpg
+
+home-nursing.jpg
+
+doctor-at-home.jpg
+
+child-care.jpg
+
+pet-care.jpg
+
+senior-homes.jpg
+
+cta.jpg ← CTA square image
+
+/public/consult/virtual/telemedicine-1.jpg
+/public/consult/virtual/telemedicine-2.jpg
+/public/consult/virtual/telemedicine-3.jpg
+/public/consult/virtual/telemedicine-4.jpg
+/public/consult/virtual/telemedicine-5.jpg
+/public/consult/virtual/telemedicine-6.jpg
+/public/consult/virtual/telemedicine-hero.jpg
+/public/consult/virtual/cta-image.jpg
+
+const BG_WIKI = "/images/wiki/bg_wiki.jpg";
+const IMG_READ = "/images/wiki/read.jpg";
+const IMG_WATCH = "/images/wiki/watch.jpg";
+const IMG_ASSESS = "/images/wiki/assess.jpg";
+const IMG_FOCUS = "/images/wiki/focus.jpg";
