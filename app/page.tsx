@@ -51,7 +51,7 @@ export default function HomePage() {
   const TESTIMONIALS = [
     {
       id: 1,
-      name: "Manish Kumawat",
+      name: "Manish Kumar",
       role: "Senior Developer",
       text:
         "Phyber completely changed how I approach my work-life balance. The access to Cognitive Behavioral Therapy fit perfectly into my remote work schedule.",
@@ -67,7 +67,7 @@ export default function HomePage() {
     },
     {
       id: 3,
-      name: "Prashati Client",
+      name: "Akriti Tandon",
       role: "University Student",
       text:
         "I was hesitant about tele-therapy, but the resources made me feel understood. The instant booking workflow is super smooth.",
