@@ -82,7 +82,7 @@ export default function OurStoryPage() {
       <div className="animate-fade-in pb-20 bg-[#F8FAFC]">
 
         {/* HERO */}
-        <div className="relative pt-32 pb-24 text-center overflow-hidden">
+        <div className="relative pt-32 pb-20 text-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
               src="/images/our-story/our-story-bg.jpg"
@@ -98,12 +98,12 @@ export default function OurStoryPage() {
               Our Story
             </div>
 
-            <h1 className="text-6xl md:text-8xl font-black text-slate-900 tracking-tight mb-8">
+            <h1 className="text-5xl md:text-7xl font-black text-slate-900 tracking-tight mb-8">
               Built on <span className="text-blue-600">Science</span>.
             </h1>
 
-            <p className="text-xl md:text-2xl text-slate-600 font-medium max-w-2xl mx-auto">
-              Powered by empathy. Crafted for the realities of modern families.
+            <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed font-bold">
+              Powered by empathy. Crafted for the realities of modern families. 
             </p>
           </div>
         </div>
@@ -111,28 +111,18 @@ export default function OurStoryPage() {
         {/* MISSION */}
         <div className="max-w-5xl mx-auto px-6 mb-32 text-center">
           <span className="text-blue-600 font-black tracking-widest uppercase text-xs mb-8 inline-block">
-            Mission
+            Single Source of Truth
           </span>
 
-          <h2 className="text-4xl md:text-6xl font-black text-slate-900 mb-10 tracking-tight leading-tight">
-            Rebuilding connection in a <br />
-            <span className="text-slate-400">disconnected world.</span>
+          <h2 className="text-2xl md:text-4xl font-black text-slate-900 mb-10 tracking-tight leading-tight">
+          Phyber unifies health records, second opinions, home care and insurance 
+          into one place—bringing clarity and connection to every family; <br />
+            <span className="text-slate-400">across distances.</span>
           </h2>
 
-          <div className="max-w-3xl mx-auto text-lg md:text-xl text-slate-500 font-medium leading-relaxed space-y-8">
-            <p>
-              As families spread across cities and continents, staying involved
-              in each other&apos;s health became harder. When something went wrong,
-              it often came as a surprise.
-            </p>
-
-            <p className="text-slate-900 font-bold">
-              Phyber unifies health records, second opinions, home care and insurance into one place—bringing clarity and connection to every family.
-            </p>
-          </div>
         </div>
 
-        {/* THE STORY */}
+        {/* THE STORY 
         <div className="max-w-5xl mx-auto px-6 mb-32">
           <div className="bg-white rounded-[2.5rem] p-12 md:p-16 border border-slate-100 shadow-xl relative overflow-hidden">
             <div className="absolute -top-20 -right-20 w-[500px] h-[500px] bg-blue-50/50 rounded-full blur-[100px]" />
@@ -161,7 +151,7 @@ export default function OurStoryPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
 
         {/* MISSION / VISION / VALUES */}
         <div className="max-w-6xl mx-auto px-6 mb-32 grid grid-cols-1 md:grid-cols-3 gap-12">
