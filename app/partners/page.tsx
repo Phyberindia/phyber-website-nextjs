@@ -18,7 +18,7 @@ export default function PartnersPage() {
   const [isPartnerFormOpen, setIsPartnerFormOpen] = useState(false);
 
   // Local background image
-  const backgroundImage = "/partners/partners-bg.jpg";
+  const backgroundImage = "/images/partners/partners-bg.jpg";
 
   // Partner Logos (local)
   const PARTNER_LOGOS = [

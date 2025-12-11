@@ -202,7 +202,7 @@ export default function PlansEnterprisePage() {
 
           <div className="flex flex-col items-center">
             <Image
-              src="/images/plans/enterprise/enterprise-testimonial.jpg"
+              src="/images/plans/enterprise/enterprise-testimonial.png"
               alt="Employee"
               width={100}
               height={100}
@@ -210,12 +210,15 @@ export default function PlansEnterprisePage() {
             />
 
             <p className="text-xl font-bold text-slate-700 italic mb-6">
-              “This is where employee testimonial goes.”
+              “The best part about being a Phyber member is to never worry about whether
+               the facility is in netowrk or not. Even my parents 
+               living miles away can access care at any facility.
+              ”
             </p>
 
-            <div className="font-black text-slate-900">Employee Name</div>
+            <div className="font-black text-slate-900">Raman Bhagra</div>
             <div className="text-xs font-bold text-slate-400 uppercase">
-              Employee Role
+              VP Sales
             </div>
           </div>
         </div>

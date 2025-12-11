@@ -254,11 +254,11 @@ export default function PlansIndividualPage() {
             />
 
             <p className="text-xl font-bold text-slate-700 italic mb-6">
-              “This is where your testimonial quote will go.”
+              “I feel in control with all the health data of me and my family in one secure place.”
             </p>
 
-            <div className="font-black text-slate-900">User Name</div>
-            <div className="text-xs font-bold text-slate-400 uppercase">User Role</div>
+            <div className="font-black text-slate-900">Divik Malhotra</div>
+            <div className="text-xs font-bold text-slate-400 uppercase">Phyber Vault User</div>
           </div>
         </div>
       </div>

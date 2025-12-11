@@ -174,7 +174,7 @@ export default function PlansCampusPage() {
 
           <div className="flex flex-col items-center">
             <Image
-              src="/images/plans/campus/campus-testimonial.jpg"
+              src="/images/plans/campus/campus-testimonial.png"
               alt="Campus Testimonial"
               width={100}
               height={100}
@@ -182,12 +182,14 @@ export default function PlansCampusPage() {
             />
 
             <p className="text-xl font-bold text-slate-700 italic mb-6">
-              “This is where your campus testimonial will appear.”
+              “As a student committee member, it did not take much time for me to see the value Phyber offers.
+              From top-notch mental wellbeing to student comfort via anonymous sessions- everything 
+              just makes our campus so much better.”
             </p>
 
-            <div className="font-black text-slate-900">Student Name</div>
+            <div className="font-black text-slate-900">Amulya Raghav</div>
             <div className="text-xs font-bold text-slate-400 uppercase">
-              Student Role
+              Student Committee Member
             </div>
           </div>
         </div>
