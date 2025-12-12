@@ -39,7 +39,6 @@ export default function PlansIndividualPage() {
     },
   ];
 
-  // JSON-LD (must convert q/a → question/answer)
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -93,7 +92,7 @@ export default function PlansIndividualPage() {
       <div className="max-w-7xl mx-auto px-6 mb-24 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
 
-          {/* CARD 1 — unchanged */}
+          {/* CARD 1 */}
           <div className="bg-white rounded-[2.5rem] p-10 border border-slate-200 shadow-xl relative overflow-hidden group h-full flex flex-col">
             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl -mr-16 -mt-16" />
 
@@ -160,16 +159,17 @@ export default function PlansIndividualPage() {
                 </ul>
               </div>
 
+              {/* FIXED BUTTON */}
               <button
                 onClick={() => (window.location.href = "https://app.phyber.care")}
-                className="w-full py-5 bg-black text-white rounded-2xl font-bold text-lg mt-auto"
+                className="w-full py-5 bg-black text-white rounded-2xl font-bold text-lg mt-auto flex items-center justify-center"
               >
                 Create Free Vault <ArrowRight size={20} className="ml-2" />
               </button>
             </div>
           </div>
 
-          {/* CARD 2 — unchanged */}
+          {/* CARD 2 */}
           <div className="bg-slate-900 text-white rounded-[2.5rem] p-10 border border-slate-800 shadow-2xl relative overflow-hidden group h-full flex flex-col">
             <div className="absolute top-0 right-0 w-64 h-64 bg-purple-600/20 rounded-full blur-3xl -mr-16 -mt-16" />
 
@@ -227,9 +227,10 @@ export default function PlansIndividualPage() {
                 </div>
               </div>
 
+              {/* FIXED BUTTON */}
               <button
                 onClick={() => (window.location.href = "https://app.phyber.care")}
-                className="w-full py-5 bg-white text-black rounded-2xl font-bold text-lg mt-auto"
+                className="w-full py-5 bg-white text-black rounded-2xl font-bold text-lg mt-auto flex items-center justify-center"
               >
                 Explore Subscriptions <ArrowRight size={20} className="ml-2" />
               </button>
@@ -263,7 +264,7 @@ export default function PlansIndividualPage() {
         </div>
       </div>
 
-      {/* FINAL FAQ SECTION (CORRECT PROPS, NO ERRORS) */}
+      {/* FINAL FAQ SECTION */}
       <FAQSection
         title="Individual Plans — Frequently Asked Questions"
         description="Answers to common questions about Vault Accounts, personalised health stacks, subscriptions, data security and Phybercare’s digital health ecosystem."

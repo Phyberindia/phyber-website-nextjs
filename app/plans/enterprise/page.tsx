@@ -171,9 +171,12 @@ export default function PlansEnterprisePage() {
 
       {/* PREPAID ECOSYSTEM SECTION */}
       <div className="max-w-7xl mx-auto px-6 mb-24 relative z-10">
+
         <div className="bg-slate-900 rounded-[2.5rem] p-8 md:p-12 relative overflow-hidden border border-slate-800 text-center">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-[100px]" />
+
+          {/* Glows */}
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[100px]"></div>
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-purple-600/20 rounded-full blur-[100px]"></div>
 
           <div className="relative z-10 mb-8">
             <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-white text-xs font-bold uppercase tracking-widest mb-4 border border-white/10">
@@ -185,13 +188,103 @@ export default function PlansEnterprisePage() {
             </h2>
 
             <p className="text-lg text-slate-400 max-w-2xl mx-auto font-medium leading-relaxed">
-              A central prepaid card connecting family and personal care. Extend benefits to dependants with guardian control.
+              A central prepaid card connecting family and personal care. Extend
+              benefits to dependants with guardian control.
             </p>
           </div>
 
-          {/* CARDS + FEATURES (unchanged) */}
-          {/* ---- omitted for brevity but fully preserved ---- */}
+          {/* Cards Visual */}
+          <div className="relative h-[300px] md:h-[400px] w-full flex justify-center items-center">
 
+            {/* Left Card */}
+            <div className="absolute left-1/2 -translate-x-[160%] md:-translate-x-[140%] top-1/2 -translate-y-1/2 w-56 h-36 bg-gradient-to-br from-purple-900 to-indigo-900 rounded-2xl border border-white/10 shadow-2xl rotate-[-15deg] opacity-60 scale-90 z-0">
+            </div>
+
+            {/* Right Card */}
+            <div className="absolute left-1/2 translate-x-[60%] md:translate-x-[40%] top-1/2 -translate-y-1/2 w-56 h-36 bg-gradient-to-br from-emerald-900 to-teal-900 rounded-2xl border border-white/10 shadow-2xl rotate-[15deg] opacity-60 scale-90 z-0">
+            </div>
+
+            {/* Main Card */}
+            <div className="relative z-20 w-72 md:w-80 h-44 md:h-52 bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 rounded-2.5xl p-5 text-white shadow-2xl border border-white/20 flex flex-col justify-between">
+              <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+
+              <div className="flex justify-between items-start">
+                <Wifi size={20} className="rotate-90 opacity-80" />
+                <span className="font-black tracking-widest text-base">Phyber.</span>
+              </div>
+
+              <div className="flex items-center space-x-3">
+                <div className="w-8 h-6 bg-yellow-400/80 rounded flex items-center justify-center">
+                  <div className="w-5 h-5 border border-yellow-600 rounded opacity-50"></div>
+                </div>
+                <div className="text-lg font-mono tracking-widest opacity-90">
+                  **** **** **** 4291
+                </div>
+              </div>
+
+              <div className="flex justify-between items-end">
+                <div>
+                  <p className="text-[8px] uppercase tracking-widest opacity-60 font-bold mb-0.5">
+                    Card Holder
+                  </p>
+                  <p className="font-bold tracking-wide uppercase text-sm">
+                    Alex Morgan
+                  </p>
+                </div>
+                <div className="text-right">
+                  <span className="bg-white/20 px-2 py-0.5 rounded text-[8px] font-bold uppercase border border-white/10">
+                    Corporate
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* 4 Features */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-6xl mx-auto mt-8 text-left">
+
+            <div className="bg-white/5 p-5 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+              <div className="flex items-center space-x-2 mb-2 text-blue-400">
+                <Users size={18} />
+                <h4 className="font-bold text-white text-sm">Family Extension</h4>
+              </div>
+              <p className="text-xs text-slate-400 font-medium">
+                Issue add-on cards for spouse, kids, and parents.
+              </p>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+              <div className="flex items-center space-x-2 mb-2 text-emerald-400">
+                <Lock size={18} />
+                <h4 className="font-bold text-white text-sm">Guardian Control</h4>
+              </div>
+              <p className="text-xs text-slate-400 font-medium">
+                Set limits, approve txns, and monitor usage in real-time.
+              </p>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+              <div className="flex items-center space-x-2 mb-2 text-purple-400">
+                <Globe size={18} />
+                <h4 className="font-bold text-white text-sm">Universal Access</h4>
+              </div>
+              <p className="text-xs text-slate-400 font-medium">
+                Use anywhere via reimbursement or prepaid mode.
+              </p>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+              <div className="flex items-center space-x-2 mb-2 text-orange-400">
+                <QrCode size={18} />
+                <h4 className="font-bold text-white text-sm">UPI Integrated</h4>
+              </div>
+              <p className="text-xs text-slate-400 font-medium">
+                Scan & Pay via UPI using your health wallet.
+              </p>
+            </div>
+
+          </div>
         </div>
       </div>
 
